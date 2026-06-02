@@ -4114,7 +4114,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@strapi/strapi@npm:5.47.0":
+"@strapi/strapi@npm:^5.47.0":
   version: 5.47.0
   resolution: "@strapi/strapi@npm:5.47.0"
   dependencies:
@@ -12267,7 +12267,7 @@ __metadata:
     "@strapi/data-transfer": "npm:5.47.0"
     "@strapi/plugin-cloud": "npm:5.47.0"
     "@strapi/plugin-users-permissions": "npm:5.47.0"
-    "@strapi/strapi": "npm:5.47.0"
+    "@strapi/strapi": "npm:^5.47.0"
     "@types/node": "npm:^20"
     "@types/react": "npm:^18"
     "@types/react-dom": "npm:^18"
