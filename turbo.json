@@ -1,0 +1,20 @@
+{
+  "$schema": "https://turborepo.org/schema.json",
+  "tasks": {
+    "develop": {
+      "cache": false
+    },
+    "dev": {
+      "cache": false,
+      "dependsOn": ["develop"]
+    },
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": [".next/**", "!.next/cache/**", "dist/**"]
+    },
+    "quora-backend#generate-types": {},
+    "strapi-types#generate-types": {
+      "dependsOn": ["quora-backend#generate-types"]
+    }
+  }
+}

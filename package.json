@@ -1,0 +1,16 @@
+{
+  "name": "quora-clone",
+  "private": true,
+  "version": "1.0.0",
+  "packageManager": "yarn@4.6.0",
+  "workspaces": [
+    "apps/*",
+    "packages/shared/*"
+  ],
+  "scripts": {
+    "dev": "turbo dev"
+  },
+  "devDependencies": {
+    "turbo": "^2.9.16"
+  }
+}

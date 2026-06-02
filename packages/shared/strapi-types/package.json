@@ -1,0 +1,7 @@
+{
+  "name": "@quora/strapi-types",
+  "private": true,
+  "scripts": {
+    "generate-types": "cp ../../../apps/quora-backend/types/generated/* src/"
+  }
+}
